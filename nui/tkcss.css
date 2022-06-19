@@ -1,0 +1,292 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+
+.painel {
+    position: absolute;
+    width: 106%;
+    height: 108%;
+    left: -3%;
+    top: -6%;
+    background-color: #171717;
+    border-radius: 15px;
+}
+
+.logo {
+    position: absolute;
+    height: 60%;
+    left: -7%;
+    top: -19%;
+}
+
+
+button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+
+    cursor:pointer;
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background: none;
+}
+
+p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 8px;
+    font-size: small;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+    margin-top: 29%;
+    margin-left: 18%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10pt;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.conteudo {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+
+    transform: translate(-50%,-50%);
+}
+
+.textmenu p {
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top: -2%;
+    font-size: 25px;
+    color: red;
+    /* transform: rotate(-90deg) */
+}
+
+/* .menu {
+    position: relative;
+    width: 58.6%;
+    height: 6%;
+    border-radius: 5px;
+    top: 50.9%;
+    left: -31%;
+
+    background-color: #171717;
+    transform: rotate(-90deg)
+} */
+
+
+
+.itens {
+    position: absolute;
+    width: 880px;
+    height: 530px;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.sessaoItens {
+    width: 100%;
+    height: 100%;
+}
+
+.sessaoItens .conteudoItens {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+  
+    overflow: auto;
+}
+
+.sessaoItens .conteudoItens .itemSessao {
+    width: 880px;
+    height: 160px;
+    border-radius: 18px;
+    margin-bottom: 18px;
+
+    background-color: #313131c5;
+
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+
+.item-info {
+    position: relative;
+    width: 860px;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fotoItem {
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+/* .menuItem {
+    position: absolute;
+    width: 710px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+    border-radius: 5px;
+
+    background-color: rgba(255, 0, 0, 0.6);
+} */
+
+.nomeItem {
+    position: absolute;
+    width: 17%;
+    height: 20%;
+    border-radius: 15px;
+    top: -1%;
+    left: -0.2%;
+    background-color: #060606;
+}
+
+.nomeItem p {
+    margin-left: 13px;
+    margin-top: 5px;
+    align-content: center;
+    text-align: left;
+    font-size: 11pt;
+    color: whitesmoke;
+}
+
+.produzir {
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 50px;
+    right: 5px;
+    left: 78%;
+
+    border-radius: 8px;
+
+    background-color: #171717;
+}
+
+.produzir button {
+    color: whitesmoke;
+}
+
+.produzir button:hover {
+    border-radius: 10px;
+    transition: .8s;
+    color: white;
+    background-color: #f84337;
+}
+
+.ingreItemI {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    top: 50px;
+    left: 150px;
+}
+
+.ingreItemII {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -19px;
+    left: 150px;
+    border-radius: 5px;
+}
+
+.ingreItemIII {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -19px;
+    left: 225px;
+    border-radius: 5px;
+
+}
+
+.ingreItemIV {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 50px;
+    left: 230px;
+    border-radius: 5px;
+
+}
+
+.descItem {
+    position: absolute;
+    width: 310px;
+    height: 90px;
+    top: 25px;
+    left: 320px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+
+
+    background-color: #171717;
+}
+
+.descItem li {
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+    /* background: #f84337; */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 8px;
+}
